@@ -60,7 +60,9 @@ Footer Section <img width="1881" height="430" alt="image" src="https://github.co
 Frontend: HTML, CSS, JavaScript
 
 📂 Project Structure
+
 project-folder/
+
 │── coming_soon/          # Coming soon page
 │   │── index.html
 │
@@ -78,29 +80,7 @@ project-folder/
 │
 │── images/               # Project images
 │── logos/                # Project logos
-│── README.md             # Project documentation
 
-📸 Screenshots
-
-Hero Section (insert screenshot here)
-
-About Section (insert screenshot here)
-
-Services Section (insert screenshot here)
-
-Who Can Join Section (insert screenshot here)
-
-Touch of Goodness Page (insert screenshot here)
-
-Future Goals Section (insert screenshot here)
-
-FAQs Section (insert screenshot here)
-
-Contact Section (insert screenshot here)
-
-Footer (insert screenshot here)
-
-Coming Soon Page (insert screenshot here)
 
 ⚙️ How It Works
 
