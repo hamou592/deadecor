@@ -33,7 +33,7 @@ Includes a button that redirects to a dedicated page (details_ar, details_fr, de
 
 The dedicated page contains:
 
-1.Hero Section (screenshot)
+1.Hero Section 
 
 2.About Section 
 
