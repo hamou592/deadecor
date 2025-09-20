@@ -14,35 +14,46 @@ The project is available in Arabic, French, and English (each language version i
 
 📑 Multiple Sections:
 
-Hero Section (screenshot)
+Hero Section <img width="1867" height="901" alt="image" src="https://github.com/user-attachments/assets/5e403e22-4e5c-4338-bced-25175a1ed5c9" />
 
-About Section (screenshot)
 
-Services Section (screenshot)
+About Section <img width="1848" height="555" alt="image" src="https://github.com/user-attachments/assets/b050f8de-f509-446b-9861-e43b50c82100" />
 
-Who Can Join Section (screenshot)
 
-Touch of Goodness Section (screenshot)
+Services Section <img width="1883" height="911" alt="image" src="https://github.com/user-attachments/assets/51ee9bb3-e4a9-4cce-a66f-b7e56a1cb4e9" />
+
+
+Who Can Join Section <img width="1868" height="830" alt="image" src="https://github.com/user-attachments/assets/964bb5d2-5d64-46ef-8916-673c31bf0b7e" />
+
+
+Touch of Goodness Section <img width="1832" height="517" alt="image" src="https://github.com/user-attachments/assets/f150eb64-fd1c-4177-b40b-9cbbd1fbc9b8" />
+
 
 Includes a button that redirects to a dedicated page (details_ar, details_fr, details_en).
 
 The dedicated page contains:
 
-Hero Section (screenshot)
+1.Hero Section (screenshot)
 
-About Section (screenshot)
+2.About Section 
 
-Form Section (screenshot)
+3.Form Section <img width="1856" height="798" alt="image" src="https://github.com/user-attachments/assets/9ac03bbd-112c-40c5-9344-f7b65fa24ab6" />
 
-Our Future Goals Section (screenshot)
 
-FAQs Section (screenshot)
+Our Future Goals Section <img width="1846" height="560" alt="image" src="https://github.com/user-attachments/assets/9155d311-d341-4270-8cc1-23773c9dc181" />
 
-Contact Section (screenshot)
 
-Footer Section (screenshot)
+FAQs Section <img width="1882" height="908" alt="image" src="https://github.com/user-attachments/assets/35f00357-0ebd-4488-a84e-57337abc4276" />
 
-⏳ Coming Soon Page: A dedicated coming_soon page with its own index.html (screenshot).
+
+Contact Section <img width="1878" height="903" alt="image" src="https://github.com/user-attachments/assets/42813f88-d8ae-4dbc-9b25-bbe92062b925" />
+
+
+Footer Section <img width="1881" height="430" alt="image" src="https://github.com/user-attachments/assets/30bb5da3-e5a1-47a8-8cea-669afd35befe" />
+
+
+⏳ Coming Soon Page: A dedicated coming_soon page with its own index.html <img width="1898" height="898" alt="image" src="https://github.com/user-attachments/assets/159a3f71-1eed-496b-8cea-cb9c6512dd55" />
+.
 
 🛠️ Tech Stack
 
