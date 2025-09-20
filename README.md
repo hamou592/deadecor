@@ -104,7 +104,7 @@ index-fr.html → French version
 
 index-en.html → English version
 
-Visit the Coming Soon page (coming_soon/index.html) for the upcoming launch page.
+Visit the Coming Soon page (coming_soon/index.html) .
 
 Enjoy a responsive and modern experience across all devices.
 
@@ -112,7 +112,7 @@ Enjoy a responsive and modern experience across all devices.
 
 Clone the repository:
 
-git clone https://github.com/hamou592/deedecor-landing-page.git
+git clone [https://github.com/hamou592/deedecor-landing-page.git](https://github.com/hamou592/deadecor.git)
 
 
 Open index.html, index-fr.html, or index-en.html in your browser depending on your language.
@@ -121,16 +121,7 @@ Open coming_soon/index.html to view the coming soon page.
 
 Explore the full responsive landing page.
 
-🔮 Future Improvements
-
-Add animations and transitions for a smoother experience.
-
-Integrate backend support for form submissions.
-
-Add product showcase with filtering and search.
-
-Enhance accessibility and SEO optimization.
 
 👨‍💻 Author
 
-Hamou Nasreddine – GitHub Profile
+Hamou Nasreddine – [GitHub Profile](https://github.com/hamou592)
