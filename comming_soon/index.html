@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="DeaDecor - Site de décoration d'intérieur. Découvrez bientôt notre boutique en ligne !" />
+  <meta name="keywords" content="décoration, maison, intérieur, boutique, DE DECOR, design, ameublement" />
+  <meta name="author" content="DE DECOR" />
+  <title>DeaDecor - Bientôt disponible</title>
+  <link rel="icon" href="../logos/Favicon-02.svg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: url("../images/hero_omming_soon.jpg") no-repeat center center/cover;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      padding: 1rem;
+    }
+
+    .container {
+      background: rgba(10, 29, 58, 0.85);
+      padding: 2rem;
+      border-radius: 15px;
+      text-align: center;
+      max-width: 700px;
+      width: 100%;
+    }
+
+    .logo {
+      width: 220px;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .countdown {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .time-box {
+      background: #c9a44c;
+      color: #0A1D3A;
+      padding: 1rem;
+      border-radius: 10px;
+      min-width: 100px;
+    }
+
+    .time-box strong {
+      display: block;
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #F4F2EF;
+    }
+
+    .contact-section {
+      margin-top: 2rem;
+      border-top: 1px solid #ffffff55;
+      padding-top: 1.5rem;
+    }
+
+    .contact-section h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      color: #f4f2ef;
+      font-size: 1rem;
+    }
+
+    .contact-info i {
+      color: #c9a44c;
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      .time-box {
+        min-width: 80px;
+        padding: 0.75rem;
+      }
+
+      .time-box strong {
+        font-size: 1.25rem;
+      }
+
+      .logo {
+        width: 220px;
+      }
+
+      .contact-info {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="../logos/Logo-06.svg" alt="Logo DE DECOR" class="logo" />
+    <h1>Bientôt disponible</h1>
+    <div class="countdown" id="countdown">
+      <div class="time-box">
+        <strong id="days">0</strong>Jours
+      </div>
+      <div class="time-box">
+        <strong id="hours">0</strong>Heures
+      </div>
+      <div class="time-box">
+        <strong id="minutes">0</strong>Minutes
+      </div>
+      <div class="time-box">
+        <strong id="seconds">0</strong>Secondes
+      </div>
+    </div>
+    <p>Nous travaillons dur pour vous offrir quelque chose d'incroyable. Restez à l'écoute !</p>
+
+    <div class="contact-section">
+      <h2>Contactez-nous</h2>
+      <div class="contact-info">
+        <i class="fas fa-phone-alt"></i>
+        <span>+213 541 86 19 72</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const countdown = () => {
+      const endDate = new Date("May 28, 2025 00:00:00").getTime();
+      const now = new Date().getTime();
+      const timeLeft = endDate - now;
+
+      const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+      document.getElementById("days").innerText = days;
+      document.getElementById("hours").innerText = ("0" + hours).slice(-2);
+      document.getElementById("minutes").innerText = ("0" + minutes).slice(-2);
+      document.getElementById("seconds").innerText = ("0" + seconds).slice(-2);
+    };
+
+    setInterval(countdown, 1000);
+    countdown();
+  </script>
+</body>
+</html>
